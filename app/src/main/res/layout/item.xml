@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/border">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:minHeight="80dp"
+                android:paddingStart="15dp"
+                android:textSize="15sp"
+                android:id="@+id/textView1"
+                android:layout_width="240dp"
+                android:layout_height="80dp"
+                />
+            <TextView
+                android:paddingStart="5dp"
+                android:layout_marginTop="20dp"
+                android:textSize="10sp"
+                android:id="@+id/textView2"
+                android:layout_width="240dp"
+                android:layout_height="30dp"/>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+        <ImageView
+            android:onClick="Start"
+            android:id="@+id/img"
+            android:src="@drawable/ic_baseline_download_24"
+            android:layout_width="70dp"
+            android:layout_height="70dp"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
